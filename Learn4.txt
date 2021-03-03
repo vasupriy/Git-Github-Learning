@@ -1,0 +1,10 @@
+•	git branch firstbranch – creates branch, we can add new file to specific branch
+•	git checkout  firstbranch: switch to new branch- movng from 1 branch to another nranch
+•	eg: git branch firstbranch, git checkout firstbranch, git add “new file name”, git commit -m “making changes in firstbranch”, (which means not in the master file)
+•	ls: test, test1.test2.test3, readme (provides what r the files are present in this branch
+•	git checkout master (come out of branch to master)
+•	ls: provides the files vch r present in master (test, test1,test2,readme)
+•	git merge firstbranch: merging firstbranch files into master (merging test3 into master)
+•	ls: provides the files vch r present in master (test, test1,test2,test3,readme)
+•	git checkout firstbranch : to go back to firstbranch from master.
+•	Now modify the test3 and add lines

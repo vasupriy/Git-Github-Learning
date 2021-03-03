@@ -25,3 +25,5 @@ Git operations & Commands:
 •	git remote show origin – displays the origin path
 •	git remote rm origin – if we give origin path incorrectly, we can use this command. Once removed… add valid origin path.
 •	git pull origin main (fetching files from origin into local repo, main is the remote repo name)
+
+Continue... learn2

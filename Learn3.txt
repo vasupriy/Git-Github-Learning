@@ -1,0 +1,5 @@
+•	git add -A: we can add all files at a time (o/p: changes to be committed).
+•	we can commit the modified files to remote repo once we add the files 
+•	git commit -m “adding first commit in local repo”: we can see what exactly have changed, who is user
+•	git commit -a -m “adding 3 files” : multiple files can be committed at once.
+•	git log - stores the details about our commits (o/p: commit unique id, author, date, message)

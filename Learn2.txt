@@ -1,0 +1,4 @@
+•	git status: provide details of what are the new files are added In the Index, modified the existing file, deletion. (o/p: changes not staged for commit)
+•	Untracked files: are those which are not added in the Index, to commit the changes then we need to add the modified file into Index first. (git add “new file name”)
+•	git clear: clears the data
+•	git add “new file name” – only 1 file can be added (o/p: changes to be committed).
