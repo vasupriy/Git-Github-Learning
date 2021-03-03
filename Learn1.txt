@@ -1,0 +1,27 @@
+GIT & GITHUB
+https://www.youtube.com/watch?v=xuB1Id2Wxak&t=337s
+Version control:  Is the management of changes to documents, computer programs, large websites & other collection of information.
+Every Change will create a snapshot of a project, and these snapshots are called as different versions.
+Why Version control: 
+•	Collaboration, which reduces conflicts in work.
+•	We can roll back to previous version if necessary 
+•	Backup:  if central server crashes, a backup is always available in your local servers.
+•	Analyze: provides proper description, what exactly was changed, when it was changed
+•	Storing the data: Snapshots of all versions are properly documented and stored, versions are also named accurately.
+Version control tools:  git, apache subversion SVN, CVS, mercurial.
+GIT is a distributed version control management tool which track the changes in code
+•	Free and open source.
+•	Installed in local repository
+•	Internet is not required
+•	https://git-scm.com/download/win
+•	Features: Distributes, compatible, non-linear, branching, lightweight( do not take lot of space), speed (since it in local repo, do not take much time to fetch data), opensource , reliable (backups), secure(SHA1), economical (free).
+Repository:  A directory or a storage space where projects are stored. 
+Types of repositories: Central repo (GitHub/online host)- meant for team to share and exchange data & Local repo (folder in a local machine) – only admin of the machine can work.
+Git operations & Commands:
+•	Git bash emulator:  where we run commands in this terminal
+•	git init : to create local repo ( .git folder will be created in local repo)
+•	We usually call remote repo as “Origin”.
+•	git remote add origin “provide path from github” (origin is linked/added to local rep)
+•	git remote show origin – displays the origin path
+•	git remote rm origin – if we give origin path incorrectly, we can use this command. Once removed… add valid origin path.
+•	git pull origin main (fetching files from origin into local repo, main is the remote repo name)
